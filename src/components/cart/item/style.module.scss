@@ -1,0 +1,23 @@
+.container {
+    padding-left: 1em;
+    width: 15em;
+    margin: 1em;
+    position: relative;
+    display: flex;
+    gap: 0.5em;
+    img {
+        width: 5em;
+    }
+    .description {
+        display: grid;
+    }
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: -1em;
+        left: 0;
+        width: 120%;
+        height: 3px;
+        background-color: white;
+    }
+}

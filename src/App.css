@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #12CBC4;
+}
